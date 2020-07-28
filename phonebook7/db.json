@@ -1,0 +1,19 @@
+{
+  "contacts": [
+    {
+      "name": " eka terina",
+      "number": " 38067543234",
+      "id": 1
+    },
+    {
+      "name": " aleksa",
+      "number": " 6385783",
+      "id": 2
+    },
+    {
+      "name": "Kateryna Paladchenko",
+      "number": " 38067543234",
+      "id": 3
+    }
+  ]
+}
