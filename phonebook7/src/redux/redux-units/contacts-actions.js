@@ -17,3 +17,16 @@ export const deleteContactSuccess = createAction(
 export const deleteContactError = createAction("contacts/deleteContactError");
 
 export const filterContact = createAction("contacts/Filter");
+
+export default {
+  fetchContactRequest,
+  fetchContactSuccess,
+  fetchContactError,
+  addContactRequest,
+  addContactSuccess,
+  addContactError,
+  deleteContactRequest,
+  deleteContactSuccess,
+  deleteContactError,
+  filterContact,
+};

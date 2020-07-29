@@ -3,9 +3,9 @@ import ContactForm from "./components/ContactForm";
 import ContactList from "./components/ContactList";
 import Filter from "./components/Filter";
 import { connect } from "react-redux";
-import contactsOperations from "./redux/contacts-operations";
-import "react-toastify/dist/ReactToastify.css";
 import Spinner from "./components/Spinner/Loader";
+import { contactsSelectors, contactsOperations } from "./redux/redux-units";
+import "react-toastify/dist/ReactToastify.css";
 
 class App extends Component {
   componentDidMount() {
@@ -32,7 +32,7 @@ class App extends Component {
 }
 
 const mapStateToProps = (state) => ({
-  isLoading: state.contacts.loading,
+  isLoading: contactsSelectors.getLoading(state),
 });
 
 const mapDispatchToProps = (dispatch) => ({

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import contactsOperations from "../../redux/contacts-operations";
+import { contactsOperations } from "../../redux/redux-units";
 import { ToastContainer, toast } from "react-toastify";
 import styles from "../Phonebook.module.css";
 

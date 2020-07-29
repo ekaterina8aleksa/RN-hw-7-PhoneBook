@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import ContactItem from "../ContactItem";
 import { connect } from "react-redux";
-import contactsOperations from "../../redux/contacts-operations";
+import { contactsOperations, contactsSelectors } from "../../redux/redux-units";
 import styles from "../Phonebook.module.css";
 
 const ContactList = ({ contacts, onDeleteContact }) => {
@@ -34,16 +34,8 @@ ContactList.propTypes = {
   ),
 };
 
-const getFilteredContacts = (allContacts, filter) => {
-  const preparedContacts = filter.trim().toLowerCase();
-
-  return allContacts.filter((contact) =>
-    contact.name.trim().toLowerCase().includes(preparedContacts)
-  );
-};
-
-const mapStateToProps = ({ contacts: { items, filter } }) => ({
-  contacts: getFilteredContacts(items, filter),
+const mapStateToProps = (state) => ({
+  contacts: contactsSelectors.getFilteredContacts(state),
 });
 
 const mapDispatchToProps = (dispatch) => ({

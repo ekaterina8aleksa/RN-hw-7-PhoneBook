@@ -8,7 +8,7 @@ import {
   PURGE,
   REGISTER,
 } from "redux-persist";
-import contactsReducer from "./contacts-reducer";
+import { contactsReducer } from "./redux-units";
 
 const middleware = [
   ...getDefaultMiddleware({

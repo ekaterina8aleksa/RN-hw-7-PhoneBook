@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import * as contactsActions from "../../redux/contacts-actions";
+import { contactsSelectors, contactsActions } from "../../redux/redux-units";
 import styles from "../Phonebook.module.css";
 
 const Filter = ({ value, onChange, contacts }) =>
@@ -18,8 +18,8 @@ const Filter = ({ value, onChange, contacts }) =>
   );
 
 const mapStateToProps = (state) => ({
-  value: state.contacts.filter,
-  contacts: state.contacts.items,
+  value: contactsSelectors.getFilter(state),
+  contacts: contactsSelectors.getItems(state),
 });
 
 const mapDispatchToProps = (dispatch) => ({
