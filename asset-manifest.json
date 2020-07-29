@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/RN-hw-7-PhoneBook/static/css/main.39c95bd8.chunk.css",
+    "main.js": "/RN-hw-7-PhoneBook/static/js/main.f4b66875.chunk.js",
+    "main.js.map": "/RN-hw-7-PhoneBook/static/js/main.f4b66875.chunk.js.map",
+    "runtime-main.js": "/RN-hw-7-PhoneBook/static/js/runtime-main.3457d6a9.js",
+    "runtime-main.js.map": "/RN-hw-7-PhoneBook/static/js/runtime-main.3457d6a9.js.map",
+    "static/css/2.a123c8b4.chunk.css": "/RN-hw-7-PhoneBook/static/css/2.a123c8b4.chunk.css",
+    "static/js/2.22990a1b.chunk.js": "/RN-hw-7-PhoneBook/static/js/2.22990a1b.chunk.js",
+    "static/js/2.22990a1b.chunk.js.map": "/RN-hw-7-PhoneBook/static/js/2.22990a1b.chunk.js.map",
+    "index.html": "/RN-hw-7-PhoneBook/index.html",
+    "precache-manifest.e6a3057d7c57e4fa1cea9afb42a1dcc7.js": "/RN-hw-7-PhoneBook/precache-manifest.e6a3057d7c57e4fa1cea9afb42a1dcc7.js",
+    "service-worker.js": "/RN-hw-7-PhoneBook/service-worker.js",
+    "static/css/2.a123c8b4.chunk.css.map": "/RN-hw-7-PhoneBook/static/css/2.a123c8b4.chunk.css.map",
+    "static/css/main.39c95bd8.chunk.css.map": "/RN-hw-7-PhoneBook/static/css/main.39c95bd8.chunk.css.map",
+    "static/js/2.22990a1b.chunk.js.LICENSE.txt": "/RN-hw-7-PhoneBook/static/js/2.22990a1b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3457d6a9.js",
+    "static/css/2.a123c8b4.chunk.css",
+    "static/js/2.22990a1b.chunk.js",
+    "static/css/main.39c95bd8.chunk.css",
+    "static/js/main.f4b66875.chunk.js"
+  ]
+}
