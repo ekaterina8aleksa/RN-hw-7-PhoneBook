@@ -1,29 +1,14 @@
 {
   "contacts": [
     {
-      "name": "dog",
-      "number": "987654321",
+      "name": "Kateryna Paladchenko",
+      "number": " 38067543234",
       "id": 2
     },
     {
-      "name": "sun",
-      "number": "918273645",
+      "name": " gfsjhgjh",
+      "number": " 38067543234",
       "id": 3
-    },
-    {
-      "name": "love",
-      "number": "192837465",
-      "id": 4
-    },
-    {
-      "name": "cat",
-      "number": "123456789",
-      "id": 5
-    },
-    {
-      "name": "koala",
-      "number": "564738291",
-      "id": 6
     }
   ]
 }

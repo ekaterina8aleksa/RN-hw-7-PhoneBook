@@ -25,7 +25,7 @@ const store = configureStore({
     middleware,
   },
 
-  devTools: process.env.MODE_ENV === "development",
+  devTools: process.env.NODE_ENV === "development",
 });
 
 // const persistor = persistStore(store);
